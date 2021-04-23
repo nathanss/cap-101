@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "cds watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sap/cds-dk": "^4.0.7"
+    "@sap/cds": "^5.0.6",
+    "@sap/cds-dk": "^4.0.7",
+    "express": "^4.17.1"
   }
 }
