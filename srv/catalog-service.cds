@@ -7,4 +7,7 @@ service CatalogService @(path:'/browse') {
 
   @requires_: 'authenticated-user'
   action submitOrder (book: Books:ID, amount: Integer);
+
+  @requires_: 'authenticated-user'
+  action getBooksCount() returns Integer;
 }
