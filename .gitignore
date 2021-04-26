@@ -1,1 +1,7 @@
 node_modules
+gen
+
+# added by cds deploy
+default-env.json
+
+cap-101_1.0.0.mtar
